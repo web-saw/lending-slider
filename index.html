@@ -3,8 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="normalize.css">
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
 	<title>Document</title>
 </head>
 <body>
@@ -15,6 +15,8 @@
 				<a href="" class="menu__link">Slide2</a>
 				<a href="" class="menu__link">Slide3</a>
 				<a href="" class="menu__link">Slide4</a>
+				<a href="" class="menu__link">Slide5</a>
+				<a href="" class="menu__link">Slide6</a>
 			</nav>
 		</header>
 		<main class="page">
@@ -22,27 +24,32 @@
 				<div class="page__screen screen">
 					<div class="screen__content">
 						<h1 class="screen__title screen__title_bg" data-swiper-parallax="50%" data-swiper-parallax-opacity="0">Lorem ipsum dolor sit amet consectetur adipisicing elit. </h1>
+						<div class="screen__text" data-swiper-parallax-opacity="0" data-swiper-parallax="-100%" data-swiper-parallax-duration="900">
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur nobis quaerat neque blanditiis omnis velit fugiat sint rem reprehenderit et, totam natus voluptatum molestias maiores. Maiores, alias? Voluptas, molestias, quaerat.</p>
+							
+							<!--<a href="#" class="screen__link">Заказать</a>-->
+						</div>
 					</div>
 					<div class="screen__body">
 						<div class="screen__image" data-swiper-parallax="33%" data-swiper-parallax-scale="1.1">
-							<img src="01.jpg" alt="">
+							<img src="img/01.jpg" alt="">
 						</div>
 					</div>
 				</div>
 				<div class="page__screen screen">
 					<div class="screen__content">
-						<h2 class="screen__title" data-swiper-parallax-opacity="0" data-swiper-parallax="-100%" data-swiper-parallax-duration="1000">Lorem2 ipsum</h2>
+						<h2 class="screen__title screen__title_bg" data-swiper-parallax-opacity="0" data-swiper-parallax="-100%" data-swiper-parallax-duration="1000">Lorem2 ipsum</h2>
 						<div class="screen__text" data-swiper-parallax-opacity="0" data-swiper-parallax="-100%" data-swiper-parallax-duration="900">
 							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur nobis quaerat neque blanditiis omnis velit fugiat sint rem reprehenderit et, totam natus voluptatum molestias maiores. Maiores, alias? Voluptas, molestias, quaerat.</p>
 							<p>Dolores voluptates molestias accusamus reprehenderit voluptas, qui illo pariatur, est id nihil quo praesentium repudiandae et. Laborum, dolorum ut, quis autem assumenda, impedit, suscipit omnis doloremque non repellat itaque optio.</p>
-							<p>Nulla harum, optio voluptates, eveniet qui porro est voluptas minus sapiente fuga quaerat fugiat veritatis facere consequuntur. Excepturi consectetur, repellendus ratione, obcaecati totam libero, nobis dolorum fugiat voluptatibus id voluptates.</p>
+							<a href="#" class="screen__link">Заказать</a>
 						</div>
 					</div>
 				</div>
 				<div class="page__screen screen">
 					<div class="screen__body">
 						<div class="screen__image" data-swiper-parallax="50%">
-							<img src="02.jpg" alt="">
+							<img src="img/02.jpg" alt="">
 						</div>
 					</div>
 				</div>
@@ -55,6 +62,20 @@
 						</div>
 					</div>
 				</div>
+				<div class="page__screen screen">
+					<div class="screen__body">
+						<div class="screen__image" data-swiper-parallax="50%" data-swiper-parallax-opacity="0">
+							<img src="img/03.png" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="page__screen screen">
+					<div class="screen__body">
+						<div class="screen__image" data-swiper-parallax="80%" data-swiper-parallax-opacity="0">
+							<img src="img/04.png" alt="">
+						</div>
+					</div>
+				</div>
 			</div>
 			<div class="page__pagination"></div>
 			<div class="page__scroll"></div>
@@ -62,7 +83,7 @@
 
 
 	</div>
-	<script src="swiper-bundle.min.js"></script>
-	<script src="script.js"></script>
+	<script src="js/swiper-bundle.min.js"></script>
+	<script src="js/script.js"></script>
 </body>
 </html>
